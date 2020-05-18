@@ -1,0 +1,21 @@
+html,
+body,
+.app {
+    height: 100vh;
+    background: #eee;
+    padding: 1em;
+}
+
+.menu {
+    padding-bottom: 2em;
+}
+
+.messages {
+    height: 440px;
+    overflow-y: scroll;
+}
+
+.message__self {
+    border-left: 2px solid orange;
+    padding-left: 8px;
+}
